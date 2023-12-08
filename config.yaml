@@ -244,7 +244,7 @@ proxies:
       headers:
         Host: sgm2ray.serverip.my.id
     udp: true
-  - name: GRATIS-15
+  - name: GRATIS15
     server: 104.26.6.171
     type: vmess
     port: 443
