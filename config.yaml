@@ -244,6 +244,22 @@ proxies:
       headers:
         Host: sgm2ray.serverip.my.id
     udp: true
+  - name: GRATIS3
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: d6543624-68ad-437c-8573-25c4c52e6c70
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idmws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: idmws.mainssh.xyz
+    udp: true
 proxy-groups:
 - name: HOSTKEY
   type: fallback
@@ -251,6 +267,7 @@ proxy-groups:
   proxies:
   - PREMIUM
   - GRATIS1
+  - GRATIS2
   - GRATIS2
   url: http://www.gstatic.com/generate_204
   interval: '3'
