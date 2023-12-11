@@ -202,18 +202,21 @@ dns:
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
-  - name: PREMIUM
+ - name: PREMIUM
     server: 104.26.6.171
+    type: vmess
     port: 443
-    type: trojan
-    password: 5c364c98-95d5-42a7-b9d5-b90d5b0fa748
+    uuid: df36bd9e-24fc-4c38-83e9-c026e9519c29
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: idn-rmatvpn.my.id
+    servername: a-bzn.inspiredau.biz.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vmess
       headers:
-        Host: idn-rmatvpn.my.id
+        Host: a-bzn.inspiredau.biz.id
     udp: true
   - name: GRATIS1
     server: 104.26.6.171
