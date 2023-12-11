@@ -197,25 +197,23 @@ dns:
   - "*.finalfantasyxiv.com"
   - "*.ffxiv.com"
   - "*.ff14.sdo.com"
+  - ff.dorado.sdo.com
   - "*.mcdn.bilivideo.cn"
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
- - name: PREMIUM
+  - name: PREMIUM
     server: 104.26.6.171
-    type: vmess
     port: 443
-    uuid: df36bd9e-24fc-4c38-83e9-c026e9519c29
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 5c364c98-95d5-42a7-b9d5-b90d5b0fa748
     skip-cert-verify: true
-    servername: a-bzn.inspiredau.biz.id
+    sni: idn-rmatvpn.my.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /trojan
       headers:
-        Host: a-bzn.inspiredau.biz.id
+        Host: idn-rmatvpn.my.id
     udp: true
   - name: GRATIS1
     server: 104.26.6.171
