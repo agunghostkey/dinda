@@ -197,7 +197,6 @@ dns:
   - "*.finalfantasyxiv.com"
   - "*.ffxiv.com"
   - "*.ff14.sdo.com"
-  - ff.dorado.sdo.com
   - "*.mcdn.bilivideo.cn"
   - "+.media.dssott.com"
   - "+.dns.google"
