@@ -202,7 +202,7 @@ dns:
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
-  - name: NUSANET
+  - name: PREMIUM
     server: 104.26.6.171
     type: vmess
     port: 443
@@ -268,7 +268,7 @@ proxy-groups:
   type: fallback
   disable-udp: false
   proxies:
-  - NUSANET
+  - PREMIUM
   - GRATIS1
   - GRATIS2
   - GRATISSS
