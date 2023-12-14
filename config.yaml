@@ -273,6 +273,6 @@ proxy-groups:
   - GRATIS2
   - GRATISSS
   url: http://www.gstatic.com/generate_204
-  interval: '3'
+  interval: '300'
 rules:
 - MATCH,HOSTKEY
