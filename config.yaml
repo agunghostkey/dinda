@@ -202,21 +202,21 @@ dns:
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
-  - name: PREMIUM
+  - name: ID NUSA RMAT
     server: 104.26.6.171
     type: vmess
     port: 443
-    uuid: df36bd9e-24fc-4c38-83e9-c026e9519c29
+    uuid: 92f17cd5-e633-493b-a419-7b82ecefc704
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: a-bzn.inspiredau.biz.id
+    servername: idn-rmatvpn.my.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: a-bzn.inspiredau.biz.id
+        Host: idn-rmatvpn.my.id
     udp: true
   - name: GRATIS1
     server: 104.26.6.171
