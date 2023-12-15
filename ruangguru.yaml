@@ -1,5 +1,5 @@
 proxies:
-  - name: NUSANET
+  - name: NUSANET UPDATE
     server: 104.18.2.2
     type: vmess
     port: 443
