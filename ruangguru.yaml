@@ -1,5 +1,5 @@
 proxies:
-  - name: NUSANET UPDATE
+  - name: NUSANET
     server: 104.18.2.2
     type: vmess
     port: 443
@@ -65,7 +65,7 @@ proxy-groups:
   type: fallback
   disable-udp: false
   proxies:
-  - NUSANET UPDATE
+  - NUSANET
   - GRATIS1
   - GRATIS2
   - GRATISSS
