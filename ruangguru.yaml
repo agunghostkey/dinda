@@ -65,7 +65,7 @@ proxy-groups:
   type: fallback
   disable-udp: false
   proxies:
-  - NUSANET
+  - NUSANET UPDATE
   - GRATIS1
   - GRATIS2
   - GRATISSS
