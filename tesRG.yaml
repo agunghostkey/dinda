@@ -202,7 +202,7 @@ dns:
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
-  - name: NUSANEToff
+  - name: NUSANET
     server: 104.18.2
     type: vmess
     port: 443
@@ -281,7 +281,7 @@ proxy-groups:
   type: fallback
   disable-udp: false
   proxies:
-  - NUSANEToff
+  - NUSANET
   - Linode
   - GRATIS1
   - GRATIS2
