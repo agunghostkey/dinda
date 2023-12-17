@@ -278,7 +278,7 @@ proxies:
     udp: true
 proxy-groups:
 - name: ILMUPEDIA
-  type: fallback
+  type: url-test
   disable-udp: false
   proxies:
   - NUSANET
