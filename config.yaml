@@ -202,7 +202,7 @@ dns:
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
-  - name: PREMIUM
+  - name: NUSANET
     server: 104.26.6.171
     type: vmess
     port: 443
@@ -217,6 +217,19 @@ proxies:
       path: /vmess
       headers:
         Host: idn-rmatvpn.my.id
+    udp: true
+  - name: Linode
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: 77ca39b0-1ef9-45bc-9937-491217566d8c
+    skip-cert-verify: true
+    sni: sg-linode4.estebuh.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg-linode4.estebuh.my.id
     udp: true
   - name: GRATIS1
     server: 104.26.6.171
@@ -268,7 +281,8 @@ proxy-groups:
   type: fallback
   disable-udp: false
   proxies:
-  - PREMIUM
+  - NUSANET
+  - Linode
   - GRATIS1
   - GRATIS2
   - GRATISSS
