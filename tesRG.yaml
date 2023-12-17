@@ -291,7 +291,7 @@ proxies:
     udp: true
 proxy-groups:
 - name: HOSTKEY
-  type: url-test
+  type: fallback
   disable-udp: false
   proxies:
   - LONOD
