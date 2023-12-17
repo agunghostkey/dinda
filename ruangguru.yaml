@@ -201,7 +201,6 @@ dns:
   - "*.mcdn.bilivideo.cn"
   - "+.media.dssott.com"
   - "+.dns.google"
-
 proxies:
   - name: NUSANET
     server: 104.18.2.2
