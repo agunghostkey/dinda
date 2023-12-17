@@ -202,7 +202,7 @@ dns:
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
-  - name: NUSANET
+  - name: NUSANEToff
     server: 104.18.2
     type: vmess
     port: 443
