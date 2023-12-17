@@ -277,7 +277,7 @@ proxies:
         Host: idmws.mainssh.xyz
     udp: true
 proxy-groups:
-- name: HOSTKEY
+- name: ILMUPEDIA
   type: fallback
   disable-udp: false
   proxies:
@@ -289,4 +289,4 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: '300'
 rules:
-- MATCH,HOSTKEY
+- MATCH,ILMUPEDIA
