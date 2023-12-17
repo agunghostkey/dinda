@@ -281,7 +281,7 @@ proxy-groups:
   type: fallback
   disable-udp: false
   proxies:
-  - NUSANET
+  - NUSANEToff
   - Linode
   - GRATIS1
   - GRATIS2
