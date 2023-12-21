@@ -203,8 +203,8 @@ dns:
   - "+.dns.google"
 proxies:
 
-  - name: ikd
-    server: 104.18.2.2
+  - name: IKD
+    server: 104.26.6.171
     port: 443
     type: trojan
     password: dfd55a47-6df6-4816-b2b0-b1a5c8639261
@@ -215,23 +215,6 @@ proxies:
       path: /trojan
       headers:
         Host: id-ikd.webkuy.my.id
-    udp: true
-
-  - name: NUSANET
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 92f17cd5-e633-493b-a419-7b82ecefc704
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idn-rmatvpn.my.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: idn-rmatvpn.my.id
     udp: true
   - name: Linode
     server: 104.26.6.171
@@ -296,7 +279,7 @@ proxy-groups:
   type: url-test
   disable-udp: false
   proxies:
-  - NUSANET
+  - IKD
   - Linode
   - GRATIS1
   - GRATIS2
