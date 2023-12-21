@@ -202,6 +202,21 @@ dns:
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
+
+  - name: ikd
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: dfd55a47-6df6-4816-b2b0-b1a5c8639261
+    skip-cert-verify: true
+    sni: id-ikd.webkuy.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id-ikd.webkuy.my.id
+    udp: true
+
   - name: NUSANET
     server: 104.26.6.171
     type: vmess
