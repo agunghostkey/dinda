@@ -276,7 +276,7 @@ proxies:
     udp: true
 proxy-groups:
 - name: ILMUPEDIA
-  type: url-test
+  type: fallback
   disable-udp: false
   proxies:
   - IKD
