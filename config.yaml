@@ -299,8 +299,8 @@ proxy-groups:
   type: fallback
   disable-udp: false
   proxies:
-  - IKD
   - qwords
+  - IKD
   - Linode
   - GRATIS1
   - GRATIS2
