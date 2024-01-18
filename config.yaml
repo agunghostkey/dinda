@@ -284,7 +284,7 @@ proxy-groups:
   disable-udp: false
   proxies:
   - qwords
-  - Linode
+  - RMAT
   - GRATIS1
   - GRATIS2
   - GRATIS3
