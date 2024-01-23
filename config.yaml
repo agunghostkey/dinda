@@ -229,7 +229,7 @@ proxies:
         Host: sgcgo.ipservers.xyz
     udp: true
   - name: GRATIS2
-    server: 104.18.2.2
+    server: 104.26.6.171
     type: vmess
     port: 443
     uuid: 7c5d2719-11d9-4c92-9bfe-d46c91a90b4d
@@ -246,7 +246,7 @@ proxies:
     udp: true
 
   - name: GRATIS3
-    server: 104.18.2.2
+    server: 104.26.6.171
     type: vmess
     port: 443
     uuid: 1ca8308c-d3ab-4e81-8c12-c25f09cf94d9
