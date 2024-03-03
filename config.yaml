@@ -202,7 +202,6 @@ dns:
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
-
   - name: RMAT
     server: 104.26.6.171
     port: 443
@@ -217,18 +216,21 @@ proxies:
         Host: id-ikd.rmatvpn.my.id
     udp: true
 
-  - name: GRATIS1
+  - name: LINODE
     server: 104.26.6.171
+    type: vmess
     port: 443
-    type: trojan
-    password: jagoanssh-KakjgfFa
+    uuid: 8784fa3d-3e47-4980-8c1a-934d3fce8ee1
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgcgo.ipservers.xyz
+    servername: id-akamai.estebuh.my.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vmess
       headers:
-        Host: sgcgo.ipservers.xyz
+        Host: id-akamai.estebuh.my.id
     udp: true
 
   - name: GRATIS2
@@ -253,7 +255,7 @@ proxy-groups:
   disable-udp: false
   proxies:
   - RMAT
-  - GRATIS1
+  - LINODE
   - GRATIS2
   url: http://www.gstatic.com/generate_204
   interval: '300'
