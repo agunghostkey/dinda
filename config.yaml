@@ -202,19 +202,21 @@ dns:
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
+
   - name: RMAT
-    server: 104.26.6.171
+    server: id-ikd.rmatvpn.my.id
     port: 443
     type: trojan
-    password: 218706a1-560d-482e-87fa-d053ecd14a18
+    password: 72c00bde-b636-4de5-a8f2-06d0cd1b6e10
     skip-cert-verify: true
     sni: id-ikd.rmatvpn.my.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id-ikd2.rmatvpn.my.id
+        Host: id-ikd.rmatvpn.my.id
     udp: true
+
   - name: GRATIS1
     server: 104.26.6.171
     port: 443
