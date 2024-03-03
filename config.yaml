@@ -204,7 +204,7 @@ dns:
 proxies:
 
   - name: RMAT
-    server: id-ikd.rmatvpn.my.id
+    server: 104.26.6.171
     port: 443
     type: trojan
     password: 72c00bde-b636-4de5-a8f2-06d0cd1b6e10
