@@ -233,7 +233,7 @@ proxies:
     udp: true
 proxy-groups:
 - name: ILMUPEDIA
-  type: fallback
+  type: select
   disable-udp: false
   proxies:
   - LINODE
