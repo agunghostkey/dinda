@@ -202,20 +202,6 @@ dns:
   - "+.media.dssott.com"
   - "+.dns.google"
 proxies:
-  - name: RMAT
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: 72c00bde-b636-4de5-a8f2-06d0cd1b6e10
-    skip-cert-verify: true
-    sni: id-ikd.rmatvpn.my.id
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id-ikd.rmatvpn.my.id
-    udp: true
-
   - name: LINODE
     server: 104.26.6.171
     type: vmess
@@ -233,7 +219,7 @@ proxies:
         Host: id-akamai.estebuh.my.id
     udp: true
   - name: SGDO
-    server: 104.18.2.2
+    server: 104.26.6.171
     port: 443
     type: trojan
     password: 11e7e663-d6c5-4d4b-99ef-9912330f0d07
@@ -250,7 +236,6 @@ proxy-groups:
   type: fallback
   disable-udp: false
   proxies:
-  - RMAT
   - LINODE
   - SGDO
   url: http://www.gstatic.com/generate_204
