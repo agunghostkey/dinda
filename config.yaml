@@ -232,22 +232,18 @@ proxies:
       headers:
         Host: id-akamai.estebuh.my.id
     udp: true
-
-  - name: GRATIS2
-    server: 104.26.6.171
-    type: vmess
+  - name: SGDO
+    server: 104.18.2.2
     port: 443
-    uuid: a9983352-8e9c-4a2c-ae6d-b8ff581dad44
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 11e7e663-d6c5-4d4b-99ef-9912330f0d07
     skip-cert-verify: true
-    servername: sgm1ray.serverip.my.id
+    sni: sgp-rmatvpn.my.id
     network: ws
     ws-opts:
-      path: /serverssh.net
+      path: /trojan
       headers:
-        Host: sgm1ray.serverip.my.id
+        Host: sgp-rmatvpn.my.id
     udp: true
 proxy-groups:
 - name: ILMUPEDIA
@@ -256,7 +252,7 @@ proxy-groups:
   proxies:
   - RMAT
   - LINODE
-  - GRATIS2
+  - SGDO
   url: http://www.gstatic.com/generate_204
   interval: '300'
 rules:
