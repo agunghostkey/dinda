@@ -218,26 +218,31 @@ proxies:
       headers:
         Host: id-akamai.estebuh.my.id
     udp: true
-  - name: SGDO
+
+  - name: IKD
     server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: 11e7e663-d6c5-4d4b-99ef-9912330f0d07
+    type: vmess
+    port: 80
+    uuid: 739d292f-a41b-4bf3-9775-781a2a1e57f4
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: sgp-rmatvpn.my.id
+    servername: 
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vmess
       headers:
-        Host: sgp-rmatvpn.my.id
+        Host: id-ikd.rmatvpn.my.id
     udp: true
+
 proxy-groups:
 - name: ILMUPEDIA
   type: select
   disable-udp: false
   proxies:
   - LINODE
-  - SGDO
+  - IKD
   url: http://www.gstatic.com/generate_204
   interval: '300'
 rules:
